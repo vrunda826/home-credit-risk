@@ -7,8 +7,6 @@ env/
 
 data/
 data/
-models/
-*.pkl
 *.db
 *.png
 
