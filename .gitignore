@@ -8,7 +8,7 @@ env/
 data/
 data/
 *.db
-*.png
+
 
 catboost_info/
 
