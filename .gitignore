@@ -9,7 +9,6 @@ data/
 data/
 *.db
 
-
 catboost_info/
 
 .DS_Store
