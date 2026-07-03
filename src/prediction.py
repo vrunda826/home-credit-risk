@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MODEL_PATH = BASE_DIR / "models" / "catboost_pipeline.pkl"
 THRESHOLD_PATH = BASE_DIR / "models" / "best_threshold.pkl"
 template = pd.read_csv(
-    BASE_DIR / "models" / "template_customer.csv"
+    BASE_DIR /"template_customer.csv"
 )
 pipeline = joblib.load(MODEL_PATH)
 threshold = joblib.load(THRESHOLD_PATH)
